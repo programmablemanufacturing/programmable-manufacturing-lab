@@ -308,4 +308,4 @@ Small improvements compound.
 
 Start from the decision, not the model.
 
-A model is useful when it helps someone make a better decision in the physical world.v
+A model is useful when it helps someone make a better decision in the physical world.
