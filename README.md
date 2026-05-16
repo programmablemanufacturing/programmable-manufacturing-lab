@@ -4,11 +4,9 @@ Open research and community infrastructure for **industrial world models**, Phys
 
 This repository explores how manufacturing teams can move from trial-and-error process development toward **physics-grounded decision systems** that reason about process states, uncertainty, experiments, and next-build choices.
 
-The initial technical focus is an open scaffold for **industrial world models**: lightweight abstractions that represent manufacturing as a state-transition process under physics constraints, sparse data, qualification requirements, and physical feedback.
+The initial technical focus is an open scaffold for **industrial world models**: lightweight abstractions that represent manufacturing as a state-transition process under physics constraints, sparse data, qualification requirements, and physical feedback. 
 
-The first product-inspired wedge is qualification-oriented experiment planning for high-value metal additive manufacturing: helping teams reason about **what to build next, why it matters, and how much confidence it may add**.
-
-Foundation models generate information.  
+Foundation models generate information. 
 Physical industries need systems that can make better decisions under real-world constraints.
 
 This repository explores a central question:
