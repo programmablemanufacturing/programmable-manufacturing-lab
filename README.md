@@ -248,34 +248,17 @@ Contributions are welcome in several forms.
 
 ---
 
-## Current roadmap
+## Community roadmap
 
-### Completed public scaffold
+The near-term roadmap is:
 
-- Manufacturing AI readiness scorecard
-- Process-mapping template
-- Pilot-definition template
-- Physical AI stack note
-- Decision-layer primer
-- Programmable manufacturing note
-- Glossary
-- Toy process-window benchmark design document
-
-### Next public additions
-
-- Synthetic dataset generator for the toy process-window benchmark
-- Baseline decision policies
-- Decision-quality metrics
-- Minimal visualization notebook
-- Open/proprietary boundary document
-- More contributor-friendly good first issues
-
-### Longer-term public directions
-
-- Additional synthetic benchmarks
-- Simple decision-layer API sketch
-- Educational examples
-- Community-submitted generalized manufacturing examples
+- Publish a manufacturing AI readiness scorecard
+- Publish a process-mapping template
+- Add first toy process-window benchmark
+- Add first synthetic physics-informed modeling example
+- Collect feedback from manufacturing engineers and AI researchers
+- Create a small set of good first issues
+- Host an open discussion around Physical AI and programmable manufacturing
 
 ---
 
