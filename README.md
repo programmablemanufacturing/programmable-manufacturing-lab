@@ -161,13 +161,15 @@ Short public notes on concepts such as:
 programmable-manufacturing-lab/
 │
 ├── README.md
+├── CONTRIBUTING.md
 ├── LICENSE
 │
 ├── docs/
-│   ├── physical-ai-stack.md
+│   ├── decision-layer-primer.md
+│   ├── glossary.md
 │   ├── manufacturing-ai-readiness.md
-│   ├── programmable-manufacturing.md
-│   └── decision-layer-primer.md
+│   ├── physical-ai-stack.md
+│   └── programmable-manufacturing.md
 │
 ├── templates/
 │   ├── readiness-scorecard.md
@@ -175,17 +177,12 @@ programmable-manufacturing-lab/
 │   └── pilot-definition-template.md
 │
 ├── benchmarks/
-│   ├── toy-process-window/
-│   ├── sparse-data-physics-prior/
-│   └── uncertainty-aware-decision/
-│
-├── examples/
-│   ├── simple-physics-informed-regression/
-│   └── synthetic-process-optimization/
+│   └── toy-process-window/
+│       └── README.md
 │
 └── community/
-    ├── discussion-prompts.md
     ├── contribution-ideas.md
+    ├── discussion-prompts.md
     └── roadmap.md
 ```
 
@@ -251,19 +248,34 @@ Contributions are welcome in several forms.
 
 ---
 
-## Community roadmap
+## Current roadmap
 
-The near-term roadmap is:
+### Completed public scaffold
 
-- [ ] Publish a manufacturing AI readiness scorecard
-- [ ] Publish a process-mapping template
-- [ ] Add first toy process-window benchmark
-- [ ] Add first synthetic physics-informed modeling example
-- [ ] Collect feedback from manufacturing engineers and AI researchers
-- [ ] Create a small set of good first issues
-- [ ] Host an open discussion around Physical AI and programmable manufacturing
+- Manufacturing AI readiness scorecard
+- Process-mapping template
+- Pilot-definition template
+- Physical AI stack note
+- Decision-layer primer
+- Programmable manufacturing note
+- Glossary
+- Toy process-window benchmark design document
 
-The long-term goal is to help define open community infrastructure for Physical AI in manufacturing.
+### Next public additions
+
+- Synthetic dataset generator for the toy process-window benchmark
+- Baseline decision policies
+- Decision-quality metrics
+- Minimal visualization notebook
+- Open/proprietary boundary document
+- More contributor-friendly good first issues
+
+### Longer-term public directions
+
+- Additional synthetic benchmarks
+- Simple decision-layer API sketch
+- Educational examples
+- Community-submitted generalized manufacturing examples
 
 ---
 
