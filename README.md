@@ -2,9 +2,11 @@
 
 Open research and community infrastructure for **industrial world models**, Physical AI decision layers, and programmable manufacturing.
 
-This repository explores how manufacturing teams can move from trial-and-error process development toward **physics-grounded decision systems** that reason about process states, uncertainty, experiments, and next-build choices.
+This repository explores how manufacturing teams can move from trial-and-error process development toward **physics-grounded decision systems** that reason about process states, uncertainty, experiments, and physical feedback.
 
-The initial technical focus is an open scaffold for **industrial world models**: lightweight abstractions that represent manufacturing as a state-transition process under physics constraints, sparse data, qualification requirements, and physical feedback. 
+The initial technical focus is an open scaffold for **industrial world models**: lightweight abstractions that represent manufacturing as a state-transition process under physics constraints, sparse data, qualification requirements, and evolving process observations.
+
+The project focuses on the open layer: shared language, readiness frameworks, process-mapping templates, toy benchmarks, demo workflows, and community discussions.
 
 Foundation models generate information. 
 Physical industries need systems that can make better decisions under real-world constraints.
