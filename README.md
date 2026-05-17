@@ -192,8 +192,17 @@ programmable-manufacturing-lab/
 │   └── pilot-definition-template.md
 │
 ├── benchmarks/
-│   └── toy-process-window/
-│       └── README.md
+│   ├── toy-process-window/
+│   ├── README.md
+│   └── industrial-world-model/
+│       ├── README.md
+│       ├── pyproject.toml
+│       ├── requirements.txt
+│       ├── examples/
+│       ├── notebooks/
+│       ├── src/imwm/
+│       └── tests/
+│   
 │
 └── community/
     ├── contribution-ideas.md
@@ -266,10 +275,14 @@ Contributions are welcome in several forms.
 ## Community roadmap
 
 The near-term roadmap is:
-- Add a synthetic dataset generator
-- Add baseline decision policies
-- Add simple decision-quality metrics
-- Invite feedback from manufacturing engineers and AI researchers
+
+- Improve the Industrial Manufacturing World Model v0.1 package
+- Add clearer quick-start examples for new contributors
+- Add a notebook comparing physics-only, data-only, and world-model planning baselines
+- Add additional synthetic manufacturing environments
+- Add uncertainty calibration diagnostics
+- Collect feedback from manufacturing engineers and AI researchers
+- Expand good first issues around benchmarks, metrics, and documentation
 ---
 
 ## Guiding principles
