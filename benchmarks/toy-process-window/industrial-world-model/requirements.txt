@@ -1,0 +1,5 @@
+numpy>=1.22
+torch>=2.0
+matplotlib>=3.5
+pandas>=1.5
+pytest>=7.0

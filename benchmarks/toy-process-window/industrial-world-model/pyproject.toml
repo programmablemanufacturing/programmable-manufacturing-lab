@@ -1,0 +1,24 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "industrial-manufacturing-world-model"
+version = "0.1.0"
+description = "Minimal open-source scaffold for industrial manufacturing world models."
+readme = "README.md"
+requires-python = ">=3.9"
+license = {text = "Apache-2.0"}
+authors = [{name = "Programmable Manufacturing Lab"}]
+dependencies = [
+    "numpy>=1.22",
+    "torch>=2.0",
+    "matplotlib>=3.5",
+    "pandas>=1.5"
+]
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
