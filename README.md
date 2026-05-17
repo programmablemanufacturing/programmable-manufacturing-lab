@@ -68,7 +68,7 @@ The long-term vision is **programmable manufacturing**: manufacturing systems th
 
 This repository contains public-facing, generalized, and synthetic materials for research, education, and community discussion.
 
-Planned artifacts include:
+This repository currently includes and will continue expanding:
 
 - Manufacturing AI readiness scorecards
 - Process-mapping templates
@@ -266,15 +266,10 @@ Contributions are welcome in several forms.
 ## Community roadmap
 
 The near-term roadmap is:
-
-- Publish a manufacturing AI readiness scorecard
-- Publish a process-mapping template
-- Add first toy process-window benchmark
-- Add first synthetic physics-informed modeling example
-- Collect feedback from manufacturing engineers and AI researchers
-- Create a small set of good first issues
-- Host an open discussion around Physical AI and programmable manufacturing
-
+- Add a synthetic dataset generator
+- Add baseline decision policies
+- Add simple decision-quality metrics
+- Invite feedback from manufacturing engineers and AI researchers
 ---
 
 ## Guiding principles
