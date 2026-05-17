@@ -1,9 +1,13 @@
 Latest release: [v0.1-industrial-world-model](https://github.com/programmablemanufacturing/programmable-manufacturing-lab/releases/tag/v0.1-industrial-world-model)
 
+## Quick start
+
+```bash
 cd benchmarks/toy-process-window/industrial-world-model
 pip install -e ".[dev]"
 python examples/run_demo.py
 pytest
+```
 
 # Programmable Manufacturing Lab
 
