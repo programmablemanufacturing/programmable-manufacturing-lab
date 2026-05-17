@@ -1,3 +1,5 @@
+Latest release: [v0.1-industrial-world-model](https://github.com/programmablemanufacturing/programmable-manufacturing-lab/releases/tag/v0.1-industrial-world-model)
+
 # Programmable Manufacturing Lab
 
 Open research and community infrastructure for **industrial world models**, Physical AI decision layers, and programmable manufacturing.
