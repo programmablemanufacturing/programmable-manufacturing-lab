@@ -141,6 +141,21 @@ Possible examples include:
 - synthetic process-structure-property mapping
 - toy inverse-design problem
 
+### Industrial Manufacturing World Model v0.1
+
+The toy process-window benchmark now includes a minimal runnable industrial world model scaffold:
+
+```text
+process history + controllable action
+    -> predicted next process state
+    -> uncertainty estimate
+    -> feasibility / defect risk
+    -> recommended next process action
+
+See:
+benchmarks/toy-process-window/industrial-world-model/
+
+The implementation is synthetic and non-proprietary. It is designed for public education, benchmarking, and community contribution, and does not include industrial partner data, sensitive process parameters, or production optimization logic.
 ---
 
 ### 4. Physical AI Decision Layer Notes
