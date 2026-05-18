@@ -23,7 +23,6 @@ A packaged public snapshot of the Industrial Manufacturing World Model v0.1 is a
 
 This package contains synthetic, non-proprietary examples for education, benchmarking, and community contribution.
 
-Open research and community infrastructure for **industrial world models**, Physical AI decision layers, and programmable manufacturing.
 
 Foundation models generate information. Physical industries need systems that can make better decisions under real-world constraints.
 
