@@ -23,7 +23,9 @@ class ToolWearEnvironment:
     obs_dim = 4
     action_dim = 2
 
-    def __init__(self, episode_length: int = 30, noise_std: float = 0.01, seed: int | None = None):
+    def __init__(
+        self, episode_length: int = 30, noise_std: float = 0.01, seed: int | None = None
+    ):
         self.episode_length = episode_length
         self.noise_std = noise_std
         self.rng = np.random.default_rng(seed)
@@ -32,12 +34,15 @@ class ToolWearEnvironment:
 
     def reset(self) -> np.ndarray:
         self.t = 0
-        self.state = np.array([
-            self.rng.uniform(0.02, 0.08),
-            self.rng.uniform(0.30, 0.45),
-            self.rng.uniform(0.82, 0.94),
-            self.rng.uniform(0.02, 0.08),
-        ], dtype=np.float32)
+        self.state = np.array(
+            [
+                self.rng.uniform(0.02, 0.08),
+                self.rng.uniform(0.30, 0.45),
+                self.rng.uniform(0.82, 0.94),
+                self.rng.uniform(0.02, 0.08),
+            ],
+            dtype=np.float32,
+        )
         return self.state.copy()
 
     def step(self, action: np.ndarray) -> StepResult:
@@ -79,7 +84,10 @@ class ToolWearEnvironment:
             + self.rng.normal(0.0, self.noise_std)
         )
 
-        self.state = np.array([wear_level, tool_temperature, surface_quality, defect_risk], dtype=np.float32)
+        self.state = np.array(
+            [wear_level, tool_temperature, surface_quality, defect_risk],
+            dtype=np.float32,
+        )
         self.t += 1
         reward = float(surface_quality - 0.45 * defect_risk - 0.08 * wear_level)
         done = self.t >= self.episode_length

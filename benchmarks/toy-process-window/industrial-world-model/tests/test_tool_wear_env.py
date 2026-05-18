@@ -26,4 +26,6 @@ def test_tool_wear_environment_is_seed_reproducible():
     second = ToolWearEnvironment(seed=9)
 
     np.testing.assert_allclose(first.reset(), second.reset())
-    np.testing.assert_allclose(first.step([0.45, 0.75]).state, second.step([0.45, 0.75]).state)
+    np.testing.assert_allclose(
+        first.step([0.45, 0.75]).state, second.step([0.45, 0.75]).state
+    )
