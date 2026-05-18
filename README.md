@@ -8,8 +8,17 @@ pip install -e ".[dev]"
 python examples/run_demo.py
 pytest
 ```
+## Download
+
+A packaged public snapshot of the Industrial Manufacturing World Model v0.1 is available from the GitHub Releases page:
+
+- `industrial-world-model-v0.1.zip`
+
+This package contains synthetic, non-proprietary examples for education, benchmarking, and community contribution.
 
 # Programmable Manufacturing Lab
+
+[![World model downloads](https://img.shields.io/github/downloads/programmablemanufacturing/programmable-manufacturing-lab/industrial-world-model-v0.1.zip?label=world%20model%20downloads)](https://github.com/programmablemanufacturing/programmable-manufacturing-lab/releases/tag/v0.1-industrial-world-model)
 
 Open research and community infrastructure for **industrial world models**, Physical AI decision layers, and programmable manufacturing.
 
