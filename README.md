@@ -17,6 +17,10 @@ Foundation models generate information. Physical industries need systems that ca
 
 This repository explores how manufacturing teams can move from trial-and-error process development toward **physics-grounded decision systems** that reason about process states, uncertainty, experiments, qualification requirements, and physical feedback.
 
+![Example output from the synthetic industrial world model demo](assets/process_window_recommendation.png)
+
+*Example output from the synthetic industrial world model demo.*
+
 The initial technical focus is an open scaffold for **industrial world models**: lightweight abstractions that represent manufacturing as a state-transition process under physics constraints, sparse data, and evolving process observations.
 
 > How can manufacturing move from trial-and-error process development toward programmable physical decision-making?
