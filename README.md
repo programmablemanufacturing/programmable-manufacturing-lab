@@ -19,7 +19,7 @@ A packaged public snapshot of the Industrial Manufacturing World Model v0.1 is a
 industrial-world-model-v0.1.zip
 This package contains synthetic, non-proprietary examples for education, benchmarking, and community contribution.
 
-```markdown
+```
 
 [![World model downloads](https://img.shields.io/github/downloads/programmablemanufacturing/programmable-manufacturing-lab/industrial-world-model-v0.1.zip?label=world%20model%20downloads)](https://github.com/programmablemanufacturing/programmable-manufacturing-lab/releases/tag/v0.1-industrial-world-model)
 
