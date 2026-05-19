@@ -26,6 +26,7 @@ It is inspired by latent world-model ideas such as RSSM-style dynamics, but it i
 - Evaluation metrics for prediction and uncertainty calibration
 - Visualization for process-window recommendations
 - A runnable demo
+- A small tool-wear environment example for machine-degradation decisions
 - Unit tests
 
 ## What this package does not include
@@ -80,13 +81,16 @@ src/imwm/
   planning.py                # CEM process-window planner
   visualization.py           # Process-window plotting
   envs/toy_process.py        # Synthetic manufacturing environment
+  envs/tool_wear.py          # Synthetic tool-wear / machine-degradation environment
   models/rssm.py             # RSSM-inspired latent dynamics model
 
 examples/
   run_demo.py                # End-to-end runnable demo
+  run_tool_wear.py           # Tool-wear environment smoke example
 
 tests/
   test_shapes.py             # Basic shape and planner tests
+  test_tool_wear_env.py      # Tool-wear environment smoke tests
 ```
 
 ## Conceptual API
