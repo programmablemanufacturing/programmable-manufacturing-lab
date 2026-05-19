@@ -68,6 +68,14 @@ Recommended physical action: {'laser_power': ..., 'scan_speed': ...}
 Saved plot: examples/process_window_recommendation.png
 ```
 
+## Uncertainty calibration plot
+
+```bash
+python examples/plot_uncertainty_calibration.py
+```
+
+This example trains the demo model on a smaller dataset, runs it on the held-out test set, and saves a scatter plot at `examples/uncertainty_calibration.png` comparing the predicted quality uncertainty (x-axis) with the absolute prediction error (y-axis). A roughly rising trend means the model's uncertainty grows with its real error; a flat cloud suggests the uncertainty estimate is not tracking error well.
+
 ## Project structure
 
 ```text
@@ -83,7 +91,8 @@ src/imwm/
   models/rssm.py             # RSSM-inspired latent dynamics model
 
 examples/
-  run_demo.py                # End-to-end runnable demo
+  run_demo.py                       # End-to-end runnable demo
+  plot_uncertainty_calibration.py   # Scatter plot of predicted uncertainty vs. absolute error
 
 tests/
   test_shapes.py             # Basic shape and planner tests
